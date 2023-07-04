@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const BASE_URL = 'https://webpagescrapper.onrender.com'; 
+const BASE_URL = 'https://webpagescrapper.onrender.com' 
 
 
 export default function Form() {
@@ -20,6 +20,7 @@ export default function Form() {
 
     //calling the getinfo api to extract the necessary data
     try {
+      console.log(`${BASE_URL}/api/getinfo/`);
       const response = await axios.post(`${BASE_URL}/api/getinfo/`, { url });
       console.log(response.data);
       setData([response.data]); // Wrap the response data in an array
