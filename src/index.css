@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.form-container{
+  text-align: center;
+}
+.submit-btn{
+  margin:10px;
+}
+
+input{
+  width:30%;
+  padding:10px;
+}
+button{
+  padding:10px;
+  color:antiquewhite;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.table-container{
+  text-align: center;
+  
+}
+
+table{
+  width:80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
